@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    background-color: rgb(73, 73, 73);
+}
+
+.nav__title{
+    color: aliceblue;
+}
+
+.nav__list{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.nav__text{
+    color: rgb(210, 207, 207);
+}
+
+.nav__buy{
+    color: green;
+}
