@@ -5,24 +5,23 @@
 }
 
 .nav{
+    height: auto;
     background-color: rgb(73, 73, 73);
 }
 
-.nav__title{
-    color: aliceblue;
-}
-
 .nav__list{
+    text-align: center;
     list-style: none;
     display: flex;
-    align-items: center;
     gap: 1rem;
 }
 
-.nav__text{
-    color: rgb(210, 207, 207);
-}
-
-.nav__buy{
-    color: green;
+.hero__section{
+    height: 98vh;
+    background-color: rgba(29, 28, 30, 0.51);
+    background-image: url(/img/ba1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: darken;
+    background-position: center;
 }
