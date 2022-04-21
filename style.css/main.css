@@ -5,11 +5,11 @@
 }
 
 .nav{
-    height: auto;
     background-color: rgb(73, 73, 73);
 }
 
 .nav__list{
+    font-size: 0.9em;
     text-align: center;
     list-style: none;
     display: flex;
@@ -17,11 +17,43 @@
 }
 
 .hero__section{
-    height: 98vh;
     background-color: rgba(29, 28, 30, 0.51);
     background-image: url(/img/ba1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-blend-mode: darken;
     background-position: center;
+}
+
+.section__sub{
+    font-weight: 100;
+    font-size: 0.8em;
+}
+
+.badge__resize{
+    font-size: 0.5em;
+}
+
+.card__text{
+    font-size: 0.8em;
+}
+
+.h__card{
+    background-color: rgb(73, 73, 73);
+}
+
+.hcard__text{
+    font-size: 0.7em;
+}
+
+.footer__nav{
+    background-color: #005F73;
+}
+
+.footer__list{
+    list-style: none;
+}
+
+.footer__item{
+    text-decoration: none;
 }
