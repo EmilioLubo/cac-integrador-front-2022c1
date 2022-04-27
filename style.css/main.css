@@ -16,6 +16,10 @@
     gap: 1rem;
 }
 
+.nav__link:hover{
+    color: whitesmoke !important;
+}
+
 .hero__section{
     background-color: rgba(29, 28, 30, 0.51);
     background-image: url(/img/ba1.jpg);
