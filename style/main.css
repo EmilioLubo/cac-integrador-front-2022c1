@@ -61,3 +61,32 @@
 .footer__item{
     text-decoration: none;
 }
+
+.button__lightB{
+    background-color: rgb(117, 184, 213);
+    color: rgb(25, 25, 174);
+}
+
+.button__green{
+    background-color: rgba(110, 165, 26, 0.826);
+}
+
+.width100{
+    width: 100%;
+}
+
+.width49{
+    width: 49%;
+}
+
+.width30{
+    max-width: 32%;
+    margin: 2px;
+}
+
+@media screen and (max-width: 768px) {
+    .width30{
+        max-width: none;
+    }
+    
+}
